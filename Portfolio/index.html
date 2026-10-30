@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Geografia, Geoprocessamento e Análise Espacial.">
+  <title> Juan Portfólio Profissional</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#inicio" class="logo" aria-label="Página inicial do portfólio">
+        <span class="logo-icon">🌐</span> GEO<span>PORTFÓLIO</span>
+      </a>
+
+      <nav class="nav" id="nav-menu" aria-label="Navegação Principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#ferramenta" class="nav-link">Simulador GIS</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Alternar tema claro/escuro" title="Alternar Tema">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <button id="menu-toggle" class="hamburger" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="nav-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section id="inicio" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="greeting-badge">
+            <span id="dynamic-greeting">Olá! Bem-vindo(a)</span>
+          </div>
+          <h1 class="hero-title">Análise Espacial, Cartografia Digital & <span class="highlight">Geoprocessamento</span></h1>
+          <p class="hero-description">
+            Transformando dados geográficos e territoriais em inteligência espacial e mapas estratégicos para tomada de decisão social e ambiental.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn btn-primary">Ver Projetos GIS</a>
+            <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <div class="map-grid-overlay"></div>
+           
+            <img src="0607e790-ed3e-4e60-9dfd-f384b7e9bfd6.jpg">
+            <div class="badge-float">
+              <span class="badge-icon">📍</span>
+              <span>Análise Territorial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p class="section-subtitle">Conheça minha trajetória na ciência geográfica e geotecnologias</p>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>🌱 Minha Jornada</h3>
+            <p>
+              Sou apaixonado(a) pela compreensão do espaço geográfico e pelas dinâmicas territoriais. Minha formação combina fundamentos sólidos de Geografia Física e Humana com o uso avançado de Geotecnologias (SIG/GIS, Sensoriamento Remoto e Cartografia Temática).
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>🎯 Objetivos Profissionais</h3>
+            <p>
+              Busco oportunidade para atuar em projetos de análise ambiental, planejamento urbano, monitoramento por satélite e consultoria territorial, aplicando ciência de dados espaciais para soluções sustentáveis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Habilidades & Tecnologias</h2>
+        <p class="section-subtitle">Ferramentas e metodologias utilizadas no dia a dia</p>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>🌍 Software & SIG</h3>
+            <ul class="skill-list">
+              <li><span>QGIS</span> <span class="level">Avançado</span></li>
+              <li><span>ArcGIS Pro</span> <span class="level">Intermediário</span></li>
+              <li><span>Google Earth Engine</span> <span class="level">Intermediário</span></li>
+              <li><span>AutoCAD / Civil 3D</span> <span class="level">Básico</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>📡 Sensoriamento Remoto</h3>
+            <ul class="skill-list">
+              <li><span>Imagens Sentinel & Landsat</span> <span class="level">Avançado</span></li>
+              <li><span>Cálculo de NDVI / NDWI</span> <span class="level">Avançado</span></li>
+              <li><span>Classificação Uso do Solo</span> <span class="level">Intermediário</span></li>
+              <li><span>Processamento de Drones (Mapeamento)</span> <span class="level">Intermediário</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>💻 Programação & Dados</h3>
+            <ul class="skill-list">
+              <li><span>Python (GeoPandas, Folium)</span> <span class="level">Intermediário</span></li>
+              <li><span>PostgreSQL / PostGIS</span> <span class="level">Intermediário</span></li>
+              <li><span>HTML5 / CSS3 / JavaScript</span> <span class="level">Intermediário</span></li>
+              <li><span>Análise Estatística Espacial</span> <span class="level">Intermediário</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="section-title">Projetos em Destaque</h2>
+        <p class="section-subtitle">Trabalhos práticos desenvolvidos durante o curso e estudos</p>
+
+        <div class="projects-grid">
+        
+          <article class="project-card">
+            <div class="project-img-container">
+              <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80" alt="Mapa de Cobertura Vegetal e NDVI" class="project-img">
+              <span class="project-tag">Sensoriamento Remoto</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Mapeamento de Vegetação por NDVI</h3>
+              <p class="project-description">Análise temporal de degradação ambiental e cobertura vegetal em bacia hidrográfica utilizando imagens Sentinel-2 no QGIS.</p>
+              <div class="project-techs">
+                <span class="tech-badge">QGIS</span>
+                <span class="tech-badge">Sentinel-2</span>
+                <span class="tech-badge">NDVI</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img-container">
+              <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&w=800&q=80" alt="Vulnerabilidade Social e Urbana" class="project-img">
+              <span class="project-tag">Geografia Urbana</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Índice de Vulnerabilidade Urbana</h3>
+              <p class="project-description">Cruzamento de dados demográficos do IBGE com infraestrutura de transporte para mapear áreas prioritárias para saneamento básico.</p>
+              <div class="project-techs">
+                <span class="tech-badge">PostGIS</span>
+                <span class="tech-badge">IBGE</span>
+                <span class="tech-badge">Python</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img-container">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80" alt="Zoneamento Agroecológico" class="project-img">
+              <span class="project-tag">Planejamento Territorial</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Zoneamento Agroecológico Regional</h3>
+              <p class="project-description">Modelagem espacial de aptidão agrícola baseada em hipsometria, declividade, solos e dados pluviométricos históricos.</p>
+              <div class="project-techs">
+                <span class="tech-badge">ArcGIS Pro</span>
+                <span class="tech-badge">ModelBuilder</span>
+                <span class="tech-badge">Solos</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="ferramenta" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Calculadora de Índice NDVI</h2>
+        <p class="section-subtitle">Simulador interativo de sensoriamento remoto para saúde da vegetação</p>
+
+        <div class="gis-calculator">
+          <div class="calc-inputs">
+            <div class="form-group">
+              <label for="nir-value">Refletância Infravermelho Próximo (NIR): <span id="nir-disp">0.60</span></label>
+              <input type="range" id="nir-value" min="0" max="1" step="0.05" value="0.60">
+            </div>
+
+            <div class="form-group">
+              <label for="red-value">Refletância Vermelho Visível (RED): <span id="red-disp">0.10</span></label>
+              <input type="range" id="red-value" min="0" max="1" step="0.05" value="0.10">
+            </div>
+          </div>
+
+          <div class="calc-result">
+            <h3>Resultado da Análise</h3>
+            <div class="ndvi-score" id="ndvi-score">0.71</div>
+            <p id="ndvi-status" class="status-badge status-good">Vegetação Densa e Saudável</p>
+            <p class="calc-formula">Fórmula: <code>NDVI = (NIR - RED) / (NIR + RED)</code></p>
+          </div>
+        </div>
+      </div>
+    </sectiom>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="section-subtitle">Vamos conversar sobre oportunidades, consultorias e projetos</p>
+
+        <div class="contact-wrapper">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+              <span class="error-msg" id="error-nome">Por favor, informe seu nome.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail Profissional</label>
+              <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+              <span class="error-msg" id="error-email">Informe um e-mail válido.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva sua proposta ou mensagem..." required></textarea>
+              <span class="error-msg" id="error-mensagem">A mensagem não pode estar em branco.</span>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="lgpd" name="lgpd" required>
+              <label for="lgpd">Concordo com o tratamento dos meus dados exclusivamente para este contato.</label>
+            </div>
+            <span class="error-msg" id="error-lgpd">É preciso aceitar os termos para enviar.</span>
+
+            <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+            <div id="form-success" class="form-success-msg">
+              ✅ Mensagem enviada com sucesso! Entrarei em contato em breve.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="current-year"></span> — Portfólio de Geoprocessamento & Geografia.</p>
+      <a href="#inicio" class="back-to-top" aria-label="Voltar ao topo da página">
+        ⬆ Voltar ao topo
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
